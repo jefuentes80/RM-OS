@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* Tamaño base de la web */
+    font-size: 10;
+
+    /* Tipografía */
+    font-family: 'JetBrains Mono', monospace;
+}
+
+:root {
+    --color_1: #182126;
+    --color-texto: #484848;
+}
