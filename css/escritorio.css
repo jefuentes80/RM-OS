@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    height: auto;
+
+    /* Alineación */
+    display: flex;
+    justify-content: center;
+}
+
+.escritorio {
+    width: 100rem;
+    height: 55rem;
+    background-color: aqua;
+
+    margin-top: 6rem;
+}
+.escritorio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*<------- NUEVO METODO*/
+}
