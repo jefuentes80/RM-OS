@@ -1,0 +1,16 @@
+.ventana {
+    /* Ocultar el contenido */
+    display: none;/* <----- */
+
+    width: 50rem;
+    height: 30rem;
+    background-color: tomato;
+
+    position: absolute;
+    top: 10rem;
+    right: 10rem;
+}
+
+.activo {
+    display: block;
+}

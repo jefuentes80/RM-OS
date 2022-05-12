@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RM-OS</title>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,12 +14,34 @@
     <!-- Archivos CSS -->
     <link rel="stylesheet" href="./css/configuracion.css">
     <link rel="stylesheet" href="./css/escritorio.css">
+    <link rel="stylesheet" href="./css/barra_de_tareas.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/ventana.css">
 
 </head>
 <body>
     
     <div class="escritorio">
-        <img src="https://www.xtrafondos.com/wallpapers/resized/camino-a-las-montanas-en-invierno-3356.jpg?s=large" alt="">
+        <!-- Fondo de escritorio -->
+        <img class="fondo-de-escritorio" src="https://www.xtrafondos.com/wallpapers/resized/camino-a-las-montanas-en-invierno-3356.jpg?s=large" alt="">
+        
+        <!-- Barra de tareas -->
+        <div class="barrra-tareas">
+            <!-- Menú -->
+            <nav class="menu">
+                <img class="ico-menu" src="https://raw.githubusercontent.com/jefuentes80/IMAGENES/main/ico/menu_1.png" alt="">
+                <ul class="li-menu">
+                    <li>Opción 1</li>
+                    <li>Opción 2</li>
+                    <li>Opción 3</li>
+                    <li>Opción 4</li>
+                </ul>
+            </nav>
+            <!-- Iconos de la barra de tareas -->
+            <img class="carpeta" id="carpeta" src="https://raw.githubusercontent.com/jefuentes80/IMAGENES/main/ico/carpeta.png" alt="">
+        </div>
+
+        <div class="ventana" id="ventana"></div>
     </div>
 
     <!-- Archivos de programación js -->

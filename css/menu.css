@@ -1,0 +1,13 @@
+.menu {
+    display: block;
+
+}
+.ico-menu {
+    display: block;
+}
+
+.li-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+}

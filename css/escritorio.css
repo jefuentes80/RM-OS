@@ -13,8 +13,10 @@ body {
     background-color: aqua;
 
     margin-top: 6rem;
+
+    position: relative;
 }
-.escritorio img {
+.escritorio > .fondo-de-escritorio {
     width: 100%;
     height: 100%;
     object-fit: cover;/*<------- NUEVO METODO*/
