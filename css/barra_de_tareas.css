@@ -1,20 +1,35 @@
-.barrra-tareas {
+.barra-tareas {
     width: 100%;
-    height: 3rem;
+    height: 4rem;
     padding: 0 1rem;
-    background-color: #24292f;
+    background-color: #24292fc9;
 
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
 
     display: flex;
     flex-direction: row;
+    justify-content:space-between;
     align-items: center;
 }
 
-.carpeta {
+.bt-iconos-aplicaciones {
+    display: flex;
+    align-items: center;
+}
+.bt-icono {
     display: block;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.8rem;
     margin-left: 1rem;
+    filter: saturate(180%);
+    transition: 0.3s;
+}
+.bt-icono:hover {
+    transition: 0.3s;
+    -webkit-transform:scale(1.3);transform:scale(1.3);overflow:hidden;
+}
+
+.bt-iconos-notificaciones {
+    color: #ffffff;
+    font-size: 1.2rem;
 }

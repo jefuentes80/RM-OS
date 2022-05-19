@@ -1,23 +1,18 @@
 body {
     width: 100%;
-    height: auto;
+    height: 99.6vh;
 
     /* Alineación */
     display: flex;
     justify-content: center;
+
+    background-image: url("https://www.xtrafondos.com/wallpapers/montanas-nevadas-en-el-bosque-9913.jpg");
+    background-size: cover;
 }
 
 .escritorio {
-    width: 100rem;
-    height: 55rem;
-    background-color: aqua;
-
-    margin-top: 6rem;
-
-    position: relative;
-}
-.escritorio > .fondo-de-escritorio {
     width: 100%;
     height: 100%;
-    object-fit: cover;/*<------- NUEVO METODO*/
+
+    position: relative;
 }

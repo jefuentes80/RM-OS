@@ -2,13 +2,13 @@
     /* Ocultar el contenido */
     display: none;/* <----- */
 
-    width: 50rem;
-    height: 30rem;
+    width: 65rem;
+    height: 40rem;
     background-color: tomato;
 
     position: absolute;
     top: 10rem;
-    right: 10rem;
+    right: 20rem;
 }
 
 .activo {
